@@ -35,27 +35,20 @@ def evaluate_burger_expression(expression):
 
         if ingredient == "top_bun":
             result += "("
-            print(result)
         elif ingredient == "patty":
             result += "+"
-            print(result)
         elif ingredient == "tomato":
             result += "-"
-            print(result)
         elif ingredient == "cheese":
             result += "*"
-            print(result)
         elif ingredient == "pickle":
             result += "/"
-            print(result)
         elif ingredient == "onion":
             result += "**"
-            print(result)
         elif ingredient == "bottom_bun":
             result += ")"
-            print(result)
         elif ingredient == "napkin":
-            print(result)
+            pass
         else:
             pass
     return "Of course! Your total will be $" + str(eval(result))
