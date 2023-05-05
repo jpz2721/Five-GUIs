@@ -1,12 +1,12 @@
-# Five-GUIs
+Five-GUIs
 
-#Welcome to Five GUIs!
+Welcome to Five GUIs!
 
 In this program, the grammar revolves around burger items that correspond to various arithmetic symbols. The user will input a "burger order" that corresponds to a full arithmetic equation, and then the order will be parsed & evaluated by the program, outputting the equation's answer as the price of the burger. 
 
 The format of a user's burger order is as follows: "Can I get a burger with/with a " + the user's selected ingredients and their amounts (separated by commas!) + the final ingredient must be entered as ", and *final ingredient and amount*?" (Oxford comma and "?" are critical!)
 
-###Below is the full supported grammar:
+Below is the full supported grammar:
 
 top_bun: "top bun" | "top buns" | "a top bun" = Open Parantheses "("
 
@@ -24,7 +24,7 @@ bottom_bun: "bottom bun" | "bottom buns" | "a bottom bun" = Closed Parentheses "
 
 napkin: "a napkin" | "napkins" = Nothing (They're Free! *More on Napkins in the first example*)
 
-###Here are some example equations: 
+Here are some example equations: 
 
 Input: Can I get a burger with 2 patties, 4 slices of cheese, and 3 napkins?
 
@@ -51,13 +51,13 @@ Output: Of course! Your total will be $-160
 (Technically because of negative numbers, you might be paid to eat your burger!)
 
 
-###- Important notes - 
+- Important notes - 
 The number "1" acts a little strangely in some places as it can cause unwanted complications - This is why each ingredient can be entered in its singular form (Ex: "a tomato slice, a bottom bun, etc."), but ending an order with something like ", and 1 bottom bun" would still work!
 
 The beginning of your order is case sensitive - Make sure that "Can I ..." is capitalized like so.
 
 
-###Command Line Instructions:
+Command Line Instructions:
 
 - To run the program from the command line, you must first navigate to wherever the file is saved (Ex. C:\Users\Jack\Zadell3200Final)
 
