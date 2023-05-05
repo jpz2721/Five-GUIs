@@ -41,7 +41,7 @@ Command Line Instructions:
 
 - To run the program from the command line, you must first navigate to wherever the file is saved (Ex. C:\Users\Jack\Zadell3200Final)
 
- - Once you are in the appropriate folder, all you need to do is type "py FIVE_GUIS.py" to execute the file
+ - Once you are in the appropriate folder, all you need to do is type "py FIVE_GUIS.py" to execute the file (For the example programs, replace FIVE_GUIS.py with "Example1.py", "Example2.py", or "Example3.py")
 
  - After typing the previous line, you will be greeted by the program, be prompted to type in your order:
 Example - 
