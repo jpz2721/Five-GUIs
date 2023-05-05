@@ -9,12 +9,19 @@ The format of a user's burger order is as follows: "Can I get a burger with/with
 Below is the full supported grammar:
 
 top_bun: "top bun" | "top buns" | "a top bun" = Open Parantheses "("
+
 patty: "patty" | "patties" | "a patty" = Addition "+"
+
 tomato: "tomato slice" | "tomato slices" | "a tomato slice" = Subtraction/Negative Sign "-"
+
 cheese: "slice of cheese" | "slices of cheese" | "a slice of cheese" = Multiplication "*"
+
 pickle: "pickle" | "pickles" | "a pickle" = Division "/"
+
 onion: "onion slice" | "onion slices" | "an onion slice" = Exponent "**"
+
 bottom_bun: "bottom bun" | "bottom buns" | "a bottom bun" = Closed Parentheses ")"
+
 napkin: "a napkin" | "napkins" = Nothing (They're Free! *More on Napkins in the first example*)
 
 Here are some example equations: 
