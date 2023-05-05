@@ -48,6 +48,14 @@ Example -
 Hi there! Welcome to Five GUIs, may I take your order?
 Type Your Order Here: Can I get a burger with 2 patties, a top bun, 2 patties, and 4 bottom buns?
 
+Example Programs - The programs below will show you how different equations work in Five GUIs. For the examples, the equation will be printed after each step the program makes when parsing the tree.
+
+Example #1 - (5*10+7)-10 or "Can I get a burger with a top bun, 5 slices of cheese, 10 patties, 7 bottom buns, a tomato slice, and 10 napkins?"
+
+Example #2 - (50-30)**2 or "Can I get a burger with a top bun, 50 tomato slices, 30 bottom buns, an onion slice, and 2 napkins?"
+
+Example #3 - (500*3-225)**(1/2) or "Can I get a burger with a top bun, 500 slices of cheese, 3 tomato slices, 225 bottom buns, an onion slice, a top bun, 1 pickle, and 2 bottom buns?" 
+
 You should now be ready to create your specialized burger!
 
 
