@@ -53,7 +53,7 @@ def evaluate_burger_expression(expression):
             pass
     return "Of course! Your total will be $" + str(eval(result))
 
-order = input("Hi there! Welcome to Five GUIs, may I take your order? \nType Your Order Here:")
+order = input("Hi there! Welcome to Five GUIs, may I take your order? \nType Your Order Here: ")
 order_up = evaluate_burger_expression(order)
 
 print(order_up)
