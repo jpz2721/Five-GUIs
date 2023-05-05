@@ -27,18 +27,29 @@ napkin: "a napkin" | "napkins" = Nothing (They're Free! *More on Napkins in the 
 Here are some example equations: 
 
 Input: Can I get a burger with 2 patties, 4 slices of cheese, and 3 napkins?
+
 Equation: 2 patties 4 slices of cheese 3 napkins = 2 + 4 * 3 = 14 
+
 Output: Of course! Your total will be $14
+
+
 (Napkins are best used when you want to end your order with a number instead of an operator like above!)
 
 Input: Can I get a burger with a top bun, 20 pickles, 5 bottom buns, a patty, and 5 napkins?
+
 Equation: Top bun 20 pickles 5 bottom buns a patty 5 napkins = (20/5)+5 = 9
+
 Output: Of Course! Your total will be $9
 
+
 Input: Can I get a burger with a tomato slice, 10 slices of cheese, a bottom bun, 4 onion slices, and 2 bottom buns?
+
 Equation: Tomato slice 10 slices of cheese a bottom bun 4 onion slices 2 bottom buns = -10*(4**2) = -160
+
 Output: Of course! Your total will be $-160
+
 (Technically because of negative numbers, you might be paid to eat your burger!)
+
 
 - Important notes - 
 The number "1" acts a little strangely in some places as it can cause unwanted complications - This is why each ingredient can be entered in its singular form (Ex: "a tomato slice, a bottom bun, etc."), but ending an order with something like ", and 1 bottom bun" would still work!
@@ -53,7 +64,9 @@ Command Line Instructions:
 - Once you are in the appropriate folder, all you need to do is type "py FIVE_GUIS.py" to execute the file
 
 - After typing the previous line, you will be greeted by the program, be prompted to type in your order:
-Example - 
+
+- Example - 
+
 Hi there! Welcome to Five GUIs, may I take your order?
 Type Your Order Here: Can I get a burger with 2 patties, a top bun, 2 patties, and 4 bottom buns?
 
