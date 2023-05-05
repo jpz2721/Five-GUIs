@@ -54,7 +54,7 @@ Example #1 - (5*10+7)-10 or "Can I get a burger with a top bun, 5 slices of chee
 
 Example #2 - (50-30)**2 or "Can I get a burger with a top bun, 50 tomato slices, 30 bottom buns, an onion slice, and 2 napkins?"
 
-Example #3 - (500*3-225)**(1/2) or "Can I get a burger with a top bun, 500 slices of cheese, 3 tomato slices, 225 bottom buns, an onion slice, a top bun, 1 pickle, and 2 bottom buns?" 
+Example #3 - (500*3-275)**(1/2) or "Can I get a burger with a top bun, 500 slices of cheese, 3 tomato slices, 275 bottom buns, an onion slice, a top bun, 1 pickle, and 2 bottom buns?" 
 
 You should now be ready to create your specialized burger!
 
